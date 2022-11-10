@@ -84,32 +84,3 @@ Launch the frontend app locally.
     ```
 4. `set_env.sh` is really for your backend application. Frontend applications have a different notion of how to store configurations. Configurations for the application endpoints can be configured inside of the `environments/environment.*ts` files.
 5. In `set_env.sh`, environment variables are set with `export $VAR=value`. Setting it this way is not permanent; every time you open a new terminal, you will have to run `set_env.sh` to reconfigure your environment variables. To verify if your environment variable is set, you can check the variable with a command like `echo $POSTGRES_USERNAME`.
-
-Setting up Locally Windows
-
-postgres db-endpoint: loladedb.cujzh2zxxyx9.us-east-1.rds.amazonaws.com
-master User: postgres
-port: 5432
-
-IAM User: lolade
-
-postgres db Identifier: loladedb
-postgres db password: lolade1234
-
-PostgreSQL
-
-East US 1 Virginia
-
-s3 bucket: lolade-dev
-
-psql -h loladedb.cujzh2zxxyx9.us-east-1.rds.amazonaws.com -U postgres postgres
-
-Add Pc Tcp to imbound rule.
-
-User: postgres
-
-BUCKET
-s3 bucket: lolade-dev
-
-
-https://www.accessbankplc.com/careers/job-opportunities/entry-level-tech-recruitment
